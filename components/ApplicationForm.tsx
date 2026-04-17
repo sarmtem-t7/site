@@ -19,7 +19,7 @@ export default function ApplicationForm({ ministries }: Props) {
     const text = encodeURIComponent(
       `📋 Новая заявка на служение\n\nИмя: ${form.name}\nВозраст: ${form.age}\nTelegram: @${form.telegram}\nСлужение: ${form.ministry}`
     );
-    window.open(`https://t.me/TemirovSarmat?text=${text}`, "_blank");
+    window.open(`https://t.me/ladno_7?text=${text}`, "_blank");
     setSent(true);
   }
 

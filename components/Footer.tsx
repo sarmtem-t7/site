@@ -11,7 +11,7 @@ export default function Footer() {
               Молодёжный лидер церкви «Надежда», Владикавказ
             </p>
             <div className="flex gap-3 mt-4">
-              <a href="https://t.me/TemirovSarmat" target="_blank" rel="noopener noreferrer" className="btn-primary text-sm py-2 px-4">
+              <a href="https://t.me/ladno_7" target="_blank" rel="noopener noreferrer" className="btn-primary text-sm py-2 px-4">
                 <TelegramIcon /> Написать
               </a>
             </div>
@@ -39,8 +39,8 @@ export default function Footer() {
           <div>
             <h3 className="font-bold mb-3" style={{ color: "var(--foreground)" }}>Контакты</h3>
             <div className="flex flex-col gap-3">
-              <a href="https://t.me/TemirovSarmat" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm hover:text-amber-400 transition-colors" style={{ color: "var(--muted)" }}>
-                <TelegramIcon /> @TemirovSarmat
+              <a href="https://t.me/ladno_7" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm hover:text-amber-400 transition-colors" style={{ color: "var(--muted)" }}>
+                <TelegramIcon /> @ladno_7
               </a>
               <a href="https://t.me/Nadejda757575" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-sm hover:text-amber-400 transition-colors" style={{ color: "var(--muted)" }}>
                 <TelegramIcon /> @Nadejda757575

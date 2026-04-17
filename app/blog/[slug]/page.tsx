@@ -107,7 +107,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           <div className="card p-8 text-center">
             <p style={{ color: "var(--muted)" }}>Комментарии будут доступны после подключения GitHub Discussions.</p>
             <a
-              href="https://t.me/TemirovSarmat"
+              href="https://t.me/ladno_7"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary mt-4 mx-auto"

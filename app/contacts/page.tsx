@@ -20,8 +20,8 @@ export default function ContactsPage() {
         <ContactCard
           title="Сармат Темиров"
           subtitle="Личный Telegram"
-          link="https://t.me/TemirovSarmat"
-          handle="@TemirovSarmat"
+          link="https://t.me/ladno_7"
+          handle="@ladno_7"
           color="#F4A828"
         />
         <ContactCard

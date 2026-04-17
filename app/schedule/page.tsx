@@ -69,7 +69,7 @@ export default function SchedulePage() {
           Мы рады каждому. Просто приходи — никакой регистрации не нужно.
         </p>
         <a
-          href="https://t.me/TemirovSarmat"
+          href="https://t.me/ladno_7"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-gold"

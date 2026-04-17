@@ -62,7 +62,7 @@ export default function EternityPage() {
           Готов поговорить? Напиши мне прямо сейчас.
         </p>
         <a
-          href="https://t.me/TemirovSarmat"
+          href="https://t.me/ladno_7"
           target="_blank"
           rel="noopener noreferrer"
           className="btn-gold mx-auto"

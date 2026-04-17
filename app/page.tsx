@@ -52,7 +52,7 @@ export default async function HomePage() {
           </blockquote>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href="https://t.me/TemirovSarmat"
+              href="https://t.me/ladno_7"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-gold"

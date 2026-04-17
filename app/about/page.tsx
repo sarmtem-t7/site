@@ -24,7 +24,7 @@ export default function AboutPage() {
           </div>
           <div className="mt-4 flex gap-3">
             <a
-              href="https://t.me/TemirovSarmat"
+              href="https://t.me/ladno_7"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-gold flex-1 justify-center"
