@@ -25,8 +25,8 @@ export default async function HomePage() {
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <div className="flex justify-center mb-8">
             <Image
-              src="/logo-chosen.jpg"
-              alt="Chosen by Hope"
+              src="/sarmat-photo.jpg"
+              alt="Сармат Темиров"
               width={120}
               height={120}
               className="rounded-full object-cover"
