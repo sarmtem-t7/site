@@ -83,6 +83,7 @@ export default function AboutPage() {
             { title: "Молодёжный лидер", desc: "Руководство молодёжным служением Chosen by Hope", color: "#F4A828" },
             { title: "Наставничество", desc: "Личное наставление и помощь в духовном росте", color: "#2D6A4F" },
             { title: "Преподавание Слова", desc: "Проповедь и изучение Библии с молодёжью", color: "#1B3A5C" },
+            { title: "Прославление", desc: "Пою в группе прославления церкви «Надежда»", color: "#2D6A4F" },
             { title: "Медиа", desc: "Развитие онлайн-присутствия служения", color: "#F4A828" },
           ].map((item) => (
             <div key={item.title} className="card p-6">
