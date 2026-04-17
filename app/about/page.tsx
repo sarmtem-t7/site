@@ -52,6 +52,9 @@ export default function AboutPage() {
             <p className="leading-relaxed" style={{ color: "var(--muted)" }}>
               Верю, что Бог использует каждого из нас — независимо от возраста и опыта — для великих дел.
             </p>
+            <p className="leading-relaxed" style={{ color: "var(--muted)" }}>
+              Вне служения люблю петь и готовлюсь к марафону.
+            </p>
           </div>
 
           <blockquote
