@@ -1,26 +1,106 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0d1117;
+  --foreground: #e6edf3;
+  --navy: #1B3A5C;
+  --green: #2D6A4F;
+  --gold: #F4A828;
+  --surface: #161b22;
+  --border: #21262d;
+  --muted: #8b949e;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-navy: #1B3A5C;
+  --color-green: #2D6A4F;
+  --color-gold: #F4A828;
+  --color-surface: #161b22;
+  --color-border: #21262d;
+  --color-muted: #8b949e;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #F4A828, #2D6A4F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.card:hover {
+  border-color: #F4A828;
+  transform: translateY(-2px);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #1B3A5C, #2D6A4F);
+  color: white;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: opacity 0.2s, transform 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, #F4A828, #e8960f);
+  color: #0d1117;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  transition: opacity 0.2s, transform 0.2s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.btn-gold:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+#reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #F4A828, #2D6A4F);
+  z-index: 9999;
+  transition: width 0.1s linear;
+  width: 0%;
 }
